@@ -1,0 +1,30 @@
+body{
+    background-image: url('biryani.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+.content{
+    margin-top: 18rem;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center; 
+    background-color: rgba(255,255,255,0.5);
+}
+
+.submit{
+    transition: all 1s;
+}
+
+.submit:hover{
+    transform: scale(1.2);
+}
